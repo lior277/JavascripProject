@@ -1,0 +1,23 @@
+{
+  "name": "javascripproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.6.2",
+    "chai": "^4.3.10",
+    "jest": "^29.7.0",
+    "jest-rest-preset": "^0.0.4",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "preset": "jest-rest-preset"
+  }
+}
